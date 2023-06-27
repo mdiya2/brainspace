@@ -11,7 +11,7 @@ struct journal: View {
     var body: some View {
         NavigationView {
             List {
-                For
+                
             }
         }
     }

@@ -18,11 +18,10 @@ struct ContentView: View {
             VStack {
                 Image("image")
                     .imageScale(.large)
-                Text("BrainSpace")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(red: 0.737, green: 0.64, blue: 0.676))
-                    .multilineTextAlignment(.leading)
+                Image("title")
+                 .resizable()
+                 .imageScale(.small)
+                 .aspectRatio(contentMode: .fit)
                 Button(action: {
                     isPresentingTodolist = true
                 }) {

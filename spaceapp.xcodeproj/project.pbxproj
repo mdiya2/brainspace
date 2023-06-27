@@ -21,6 +21,7 @@
 		BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDABA9152A4B505E00F85DD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BDE060C32A4B2AB6007EB7A3 /* todolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist.swift; sourceTree = "<group>"; };
 		BDF7851B2A4B32CC000267A2 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,6 +56,7 @@
 		BD24A9A82A4B1C4E00D9E1DA /* spaceapp */ = {
 			isa = PBXGroup;
 			children = (
+				BDABA9152A4B505E00F85DD7 /* Info.plist */,
 				BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */,
 				BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */,
 				BDF7851B2A4B32CC000267A2 /* journal.swift */,
@@ -277,6 +279,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"spaceapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spaceapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +308,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"spaceapp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = spaceapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
