@@ -12,6 +12,7 @@
 		BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */; };
 		BD24A9B12A4B1C4F00D9E1DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */; };
 		BDE060C42A4B2AB6007EB7A3 /* todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE060C32A4B2AB6007EB7A3 /* todolist.swift */; };
+		BDF7851C2A4B32CC000267A2 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7851B2A4B32CC000267A2 /* journal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BDE060C32A4B2AB6007EB7A3 /* todolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist.swift; sourceTree = "<group>"; };
+		BDF7851B2A4B32CC000267A2 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */,
 				BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */,
+				BDF7851B2A4B32CC000267A2 /* journal.swift */,
 				BDE060C32A4B2AB6007EB7A3 /* todolist.swift */,
 				BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */,
 				BD24A9AF2A4B1C4F00D9E1DA /* Preview Content */,
@@ -143,6 +146,7 @@
 				BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */,
 				BD24A9AA2A4B1C4E00D9E1DA /* spaceappApp.swift in Sources */,
 				BDE060C42A4B2AB6007EB7A3 /* todolist.swift in Sources */,
+				BDF7851C2A4B32CC000267A2 /* journal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

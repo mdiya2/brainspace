@@ -9,12 +9,22 @@ import SwiftUI
 
 struct todolist: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        
+        ZStack {
+            Color(red: 0.278, green: 0.339, blue: 0.342)
+                .edgesIgnoringSafeArea(.all)
+            Text("Todo List")
+                .font(.largeTitle)
+                .fontWeight(.bold)
+                .foregroundColor(Color(red: 0.737, green: 0.64, blue: 0.676))
+                .multilineTextAlignment(.leading)
+        }
     }
-}
-
-struct todo_list_Previews: PreviewProvider {
-    static var previews: some View {
-        todolist()
+    
+    struct todo_list_Previews: PreviewProvider {
+        static var previews: some View {
+            todolist()
+        }
     }
 }
