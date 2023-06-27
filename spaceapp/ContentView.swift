@@ -10,6 +10,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var isPresentingTodolist = false
     var body: some View {
         ZStack {
             Color(red: 0.278, green: 0.339, blue: 0.342)
@@ -22,6 +23,19 @@ struct ContentView: View {
                     .fontWeight(.bold)
                     .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
                     .multilineTextAlignment(.leading)
+                Button(action: {
+                    isPresentingTodolist = true
+                }) {
+                    Text("to-do list")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
+                }
+                .font(.title2)
+                .buttonStyle(.borderedProminent)
+                .tint(Color(red: 0.362, green: 0.217, blue: 0.298))
+                .sheet(isPresented: $isPresentingTodolist) {
+                    todolist()
+                }
             }//end of vstack
             .padding()
             
