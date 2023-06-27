@@ -11,6 +11,8 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var isPresentingTodolist = false
+    @State private var isPresentingtimer = false
+    @State private var isPresentingJournal = false
     var body: some View {
         ZStack {
             Color(red: 0.278, green: 0.339, blue: 0.342)
@@ -36,7 +38,33 @@ struct ContentView: View {
                     todolist()
                 }
                 
-                
+                Button(action: {
+                    isPresentingtimer = true
+                }) {
+                    Text(" timer       ")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
+                }
+                .font(.title2)
+                .buttonStyle(.borderedProminent)
+                .tint(Color(red: 0.362, green: 0.217, blue: 0.298))
+                .sheet(isPresented: $isPresentingtimer) {
+                    timer()
+                }
+
+                Button(action: {
+                    isPresentingJournal = true
+                }) {
+                    Text(" journal    ")
+                        .fontWeight(.bold)
+                        .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
+                }
+                .font(.title2)
+                .buttonStyle(.borderedProminent)
+                .tint(Color(red: 0.362, green: 0.217, blue: 0.298))
+                .sheet(isPresented: $isPresentingJournal) {
+                    journal()
+                }
             
             }//end of vstack
             .padding()
