@@ -12,6 +12,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            Color(red: 0.278, green: 0.339, blue: 0.342)
+            .edgesIgnoringSafeArea(.all)
             VStack {
                 Image("image")
                     .imageScale(.large)
@@ -22,7 +24,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.leading)
             }//end of vstack
             .padding()
-            .background(Color(red: 0.278, green: 0.339, blue: 0.342))
+            
         }//end of zstack
     }//end of body
 }//end of struct
