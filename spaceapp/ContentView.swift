@@ -21,7 +21,7 @@ struct ContentView: View {
                 Text("BrainSpace")
                     .font(.largeTitle)
                     .fontWeight(.bold)
-                    .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
+                    .foregroundColor(Color(red: 0.737, green: 0.64, blue: 0.676))
                     .multilineTextAlignment(.leading)
                 Button(action: {
                     isPresentingTodolist = true
