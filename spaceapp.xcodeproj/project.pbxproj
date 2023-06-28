@@ -11,8 +11,6 @@
 		BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */; };
 		BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */; };
 		BD24A9B12A4B1C4F00D9E1DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */; };
-		BDABA9192A4B71EA00F85DD7 /* White-Apricot-BF6428fa38749ec.otf in Resources */ = {isa = PBXBuildFile; fileRef = BDABA9172A4B71EA00F85DD7 /* White-Apricot-BF6428fa38749ec.otf */; };
-		BDABA91A2A4B71EA00F85DD7 /* Befonts-License.txt in Resources */ = {isa = PBXBuildFile; fileRef = BDABA9182A4B71EA00F85DD7 /* Befonts-License.txt */; };
 		BDABA91C2A4B747B00F85DD7 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABA91B2A4B747B00F85DD7 /* timer.swift */; };
 		BDE060C42A4B2AB6007EB7A3 /* todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE060C32A4B2AB6007EB7A3 /* todolist.swift */; };
 		BDF7851C2A4B32CC000267A2 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7851B2A4B32CC000267A2 /* journal.swift */; };
@@ -24,8 +22,6 @@
 		BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BDABA9172A4B71EA00F85DD7 /* White-Apricot-BF6428fa38749ec.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "White-Apricot-BF6428fa38749ec.otf"; sourceTree = "<group>"; };
-		BDABA9182A4B71EA00F85DD7 /* Befonts-License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Befonts-License.txt"; sourceTree = "<group>"; };
 		BDABA91B2A4B747B00F85DD7 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 		BDE060C32A4B2AB6007EB7A3 /* todolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist.swift; sourceTree = "<group>"; };
 		BDF7851B2A4B32CC000267A2 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
@@ -61,7 +57,6 @@
 		BD24A9A82A4B1C4E00D9E1DA /* spaceapp */ = {
 			isa = PBXGroup;
 			children = (
-				BDABA9162A4B71EA00F85DD7 /* apricotTitleFont */,
 				BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */,
 				BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */,
 				BDF7851B2A4B32CC000267A2 /* journal.swift */,
@@ -79,15 +74,6 @@
 				BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BDABA9162A4B71EA00F85DD7 /* apricotTitleFont */ = {
-			isa = PBXGroup;
-			children = (
-				BDABA9172A4B71EA00F85DD7 /* White-Apricot-BF6428fa38749ec.otf */,
-				BDABA9182A4B71EA00F85DD7 /* Befonts-License.txt */,
-			);
-			path = apricotTitleFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,9 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDABA9192A4B71EA00F85DD7 /* White-Apricot-BF6428fa38749ec.otf in Resources */,
 				BD24A9B12A4B1C4F00D9E1DA /* Preview Assets.xcassets in Resources */,
-				BDABA91A2A4B71EA00F85DD7 /* Befonts-License.txt in Resources */,
 				BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
