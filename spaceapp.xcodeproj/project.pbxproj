@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,8 @@
 		BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */; };
 		BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */; };
 		BD24A9B12A4B1C4F00D9E1DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */; };
+		BD784E852A4C86ED008D339F /* Apricot.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD784E842A4C86ED008D339F /* Apricot.otf */; };
+		BD81B0732A4CA05500210F6E /* game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD81B0722A4CA05500210F6E /* game.swift */; };
 		BDABA91C2A4B747B00F85DD7 /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDABA91B2A4B747B00F85DD7 /* timer.swift */; };
 		BDE060C42A4B2AB6007EB7A3 /* todolist.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE060C32A4B2AB6007EB7A3 /* todolist.swift */; };
 		BDF7851C2A4B32CC000267A2 /* journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF7851B2A4B32CC000267A2 /* journal.swift */; };
@@ -22,6 +24,8 @@
 		BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD24A9B02A4B1C4F00D9E1DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD784E842A4C86ED008D339F /* Apricot.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apricot.otf; sourceTree = "<group>"; };
+		BD81B0722A4CA05500210F6E /* game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = game.swift; sourceTree = "<group>"; };
 		BDABA91B2A4B747B00F85DD7 /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
 		BDE060C32A4B2AB6007EB7A3 /* todolist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolist.swift; sourceTree = "<group>"; };
 		BDF7851B2A4B32CC000267A2 /* journal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journal.swift; sourceTree = "<group>"; };
@@ -57,8 +61,10 @@
 		BD24A9A82A4B1C4E00D9E1DA /* spaceapp */ = {
 			isa = PBXGroup;
 			children = (
+				BD784E842A4C86ED008D339F /* Apricot.otf */,
 				BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */,
 				BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */,
+				BD81B0722A4CA05500210F6E /* game.swift */,
 				BDF7851B2A4B32CC000267A2 /* journal.swift */,
 				BDABA91B2A4B747B00F85DD7 /* timer.swift */,
 				BDE060C32A4B2AB6007EB7A3 /* todolist.swift */,
@@ -112,7 +118,7 @@
 				};
 			};
 			buildConfigurationList = BD24A9A12A4B1C4E00D9E1DA /* Build configuration list for PBXProject "spaceapp" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -135,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD24A9B12A4B1C4F00D9E1DA /* Preview Assets.xcassets in Resources */,
+				BD784E852A4C86ED008D339F /* Apricot.otf in Resources */,
 				BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +156,7 @@
 				BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */,
 				BD24A9AA2A4B1C4E00D9E1DA /* spaceappApp.swift in Sources */,
 				BDABA91C2A4B747B00F85DD7 /* timer.swift in Sources */,
+				BD81B0732A4CA05500210F6E /* game.swift in Sources */,
 				BDE060C42A4B2AB6007EB7A3 /* todolist.swift in Sources */,
 				BDF7851C2A4B32CC000267A2 /* journal.swift in Sources */,
 			);
