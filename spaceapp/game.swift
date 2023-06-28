@@ -20,6 +20,7 @@ struct game: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 Rectangle()
+                    .frame(height: 225.0)
                     .foregroundColor(Color(red: 0.278, green: 0.339, blue: 0.342))
                 
                 Image("gameTitle")
@@ -39,7 +40,13 @@ struct game: View {
                     .padding()
                 
                 Button("check", action: checkGuess)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color(red: 0.738, green: 0.64, blue: 0.676))
+                    .font(.title2)
+                    .buttonStyle(.borderedProminent)
+                    .tint(Color(red: 0.362, green: 0.217, blue: 0.298))
                     .padding()
+                
                 
                 Spacer()
             }
