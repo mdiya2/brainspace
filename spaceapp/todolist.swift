@@ -1,15 +1,10 @@
-//
-//  todolist.swift
-//  spaceapp
-//
-//  Created by Scholar on 6/29/23.
-//
-
 import SwiftUI
 
 struct TodoItem: Identifiable {
     let id = UUID()
     var title: String
+    var isChecked: Bool = false
+    var isDeleted: Bool = false
 }
 
 struct todolist: View {
@@ -30,9 +25,39 @@ struct todolist: View {
                 }
             }.padding()
 
-            List(todoItems) { item in
-                Text(item.title)
+            List {
+                ForEach(todoItems) { item in
+                    if !item.isDeleted {
+                        HStack {
+                            Button(action: {
+                                toggleItem(item)
+                            }) {
+                                Image(systemName: item.isChecked ? "checkmark.circle.fill" : "circle")
+                            }
+                            Text(item.title)
+                                .strikethrough(item.isChecked)
+                            Spacer()
+                            Button(action: {
+                                deleteItem(item)
+                            }) {
+                                Image(systemName: "trash")
+                            }
+                        }
+                    }
+                }
             }
+        }
+    }
+
+    private func toggleItem(_ item: TodoItem) {
+        if let index = todoItems.firstIndex(where: { $0.id == item.id }) {
+            todoItems[index].isChecked.toggle()
+        }
+    }
+
+    private func deleteItem(_ item: TodoItem) {
+        if let index = todoItems.firstIndex(where: { $0.id == item.id }) {
+            todoItems[index].isDeleted = true
         }
     }
 }
@@ -42,3 +67,4 @@ struct todolist_Previews: PreviewProvider {
         todolist()
     }
 }
+
