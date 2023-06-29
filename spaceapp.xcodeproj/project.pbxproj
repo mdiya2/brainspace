@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BD0888012A4DDCCF00F239F3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0888002A4DDCCF00F239F3 /* Helper.swift */; };
 		BD0888032A4DDCFA00F239F3 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0888022A4DDCFA00F239F3 /* TimerManager.swift */; };
-		BD16788D2A4DCBBD00073244 /* ToDoListEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD16788C2A4DCBBD00073244 /* ToDoListEx.swift */; };
 		BD24A9AA2A4B1C4E00D9E1DA /* spaceappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */; };
 		BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */; };
 		BD24A9AE2A4B1C4F00D9E1DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD24A9AD2A4B1C4F00D9E1DA /* Assets.xcassets */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		BD0888002A4DDCCF00F239F3 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		BD0888022A4DDCFA00F239F3 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
-		BD16788C2A4DCBBD00073244 /* ToDoListEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListEx.swift; sourceTree = "<group>"; };
 		BD24A9A62A4B1C4E00D9E1DA /* spaceapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spaceappApp.swift; sourceTree = "<group>"; };
 		BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 				BD24A9A92A4B1C4E00D9E1DA /* spaceappApp.swift */,
 				BD24A9AB2A4B1C4E00D9E1DA /* ContentView.swift */,
 				BDEEA6332A4DBE5F001721FB /* todolist.swift */,
-				BD16788C2A4DCBBD00073244 /* ToDoListEx.swift */,
 				BD81B0722A4CA05500210F6E /* game.swift */,
 				BDF7851B2A4B32CC000267A2 /* journal.swift */,
 				BDABA91B2A4B747B00F85DD7 /* timer.swift */,
@@ -165,7 +162,6 @@
 				BD24A9AC2A4B1C4E00D9E1DA /* ContentView.swift in Sources */,
 				BDEEA6342A4DBE5F001721FB /* todolist.swift in Sources */,
 				BD24A9AA2A4B1C4E00D9E1DA /* spaceappApp.swift in Sources */,
-				BD16788D2A4DCBBD00073244 /* ToDoListEx.swift in Sources */,
 				BDABA91C2A4B747B00F85DD7 /* timer.swift in Sources */,
 				BD81B0732A4CA05500210F6E /* game.swift in Sources */,
 				BD0888032A4DDCFA00F239F3 /* TimerManager.swift in Sources */,
