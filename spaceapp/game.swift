@@ -58,7 +58,7 @@ struct game: View {
         
         func checkGuess() {
             guard let guessedValue = Int(guessedNumber) else {
-                showAlert(title: "invalid Input", message: "please enter a valid number.")
+                showAlert(title: "invalid input", message: "please enter a valid number.")
                 return
             }
             
@@ -68,7 +68,7 @@ struct game: View {
             } else if guessedValue < targetNumber {
                 showAlert(title: "wrong guess", message: "try a higher number.")
             } else {
-                showAlert(title: "wrong Guess", message: "try a lower number.")
+                showAlert(title: "wrong guess", message: "try a lower number.")
             }
         }
         
